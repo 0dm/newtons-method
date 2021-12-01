@@ -2,12 +2,14 @@ from math import *
 
 expression = "cos(x) + x ** 3 - log10(x) - pi"
 
+__import__('sys').setrecursionlimit(2000) # danger
+
 
 def f(x: float) -> float:
     try:
         return eval(expression)
     except ValueError:
-        return f(x + 1E-3)
+        return f(x + 1E-2)
 
 
 def deriv(x: float) -> float:
