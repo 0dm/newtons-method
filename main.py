@@ -8,7 +8,7 @@ __import__('sys').setrecursionlimit(2000) # danger
 def f(x: float) -> float:
     try:
         return eval(expression)
-    except ValueError:
+    except (ValueError, ZeroDivisionError):
         return f(x + 1E-2)
 
 
