@@ -1,6 +1,6 @@
 # newton's method in python
 
-# probably doesn't work at all sometimes
+approximate a root of any differentiable function
 
 # code is bad on purpose 
 I promise
