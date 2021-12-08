@@ -3,7 +3,7 @@
 approximate a root of any differentiable function
 
 # code is bad on purpose 
-I promise
+improving this code is left as an exercise for the reader
 
 
 # thanks mike
